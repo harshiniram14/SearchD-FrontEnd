@@ -13,8 +13,38 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header1{
+  background-color: #7c7ca1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header2{
+  background-color: #a1817c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header3{
+  background-color: #7ca18d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header4{
+  background-color: #a17c98;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +65,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.search{
+  background-image: url("https://wallpapers.com/images/featured/cute-quotes-6sz0w6xspvk7x7ox.jpg");
+  height:100vh;
+  background-size:cover;
+}
+.getch{
+  background-color: rgb(157, 133, 137);
 }
